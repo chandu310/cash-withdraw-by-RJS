@@ -1,0 +1,13 @@
+/* Write your CSS here */
+button {
+  width: 200px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #382f5a;
+  border: 2px solid #c4c4c4;
+  margin: 10px;
+  color: #c4c4c4;
+}
+.list-item {
+  list-style: none;
+}

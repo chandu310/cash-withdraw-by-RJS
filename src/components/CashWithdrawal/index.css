@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.second-container {
+  min-height: 40vh;
+  padding: 20px;
+  background-color: #150b3e;
+  font-family: 'Roboto';
+  border-radius: 15px;
+  width: 50vw;
+}
+.head-container {
+  display: flex;
+}
+.s-logo {
+  border-radius: 100px;
+  background-color: #d4d2db;
+  width: 70px;
+  height: 70px;
+  margin-right: 30px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.head {
+  text-align: center;
+  font-size: 25px;
+  color: #585076;
+}
+.main-head {
+  color: #d4d2db;
+  margin-top: 35px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.counter {
+  color: #585076;
+  font-weight: 500;
+  font-size: 20px;
+}
+.amount {
+  color: #d4d2db;
+  font-weight: 500;
+  font-size: 30px;
+}
+.rupees {
+  color: #585076;
+  font-size: 15px;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
